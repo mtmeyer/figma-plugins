@@ -1,0 +1,21 @@
+<svg
+  height="100px"
+  width="100px"
+  fill="#000000"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="1.1"
+  x="0px"
+  y="0px"
+  viewBox="0 0 256 256"
+  enable-background="new 0 0 256 256"
+  xml:space="preserve"
+>
+  <g>
+    <g>
+      <rect x="25.581" y="158.46" fill-rule="evenodd" clip-rule="evenodd" width="204.838" height="46.187"></rect>
+      <rect x="25.581" y="94.93" fill-rule="evenodd" clip-rule="evenodd" width="204.838" height="33.86"></rect>
+      <rect x="25.581" y="51.353" fill-rule="evenodd" clip-rule="evenodd" width="204.838" height="17.028"></rect>
+    </g>
+  </g>
+</svg>

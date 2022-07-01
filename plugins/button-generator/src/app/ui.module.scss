@@ -1,0 +1,26 @@
+@import './styles/variables.scss';
+
+.container {
+  width: var(--figma-ui-width);
+  height: var(--figma-ui-height);
+  background-color: var(--figma-color-bg);
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 8px;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: var(--figma-color-border);
+  margin: 16px 0;
+}

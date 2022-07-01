@@ -1,0 +1,26 @@
+@import './styles/variables.scss';
+
+.container {
+  padding: 16px;
+}
+
+.heading {
+  margin-top: 0;
+}
+
+.label {
+  @include text-label;
+  margin-bottom: 8px;
+}
+
+.dropdown {
+  margin-bottom: 24px;
+  height: 38px;
+}
+
+.colourContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  margin-bottom: 8px;
+}

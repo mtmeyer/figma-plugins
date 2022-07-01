@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.label {
+  color: var(--figma-color-text);
+  font-size: 14px;
+}
+
+.field {
+  background-color: transparent;
+  color: var(--color-bg-2);
+  border: 1px solid var(--figma-color-bg-disabled-secondary);
+  height: 40px;
+  border-radius: 2px;
+  width: 100%;
+  color: var(--figma-color-text);
+  padding: 0 8px;
+
+  &:focus {
+    outline-color: var(--figma-color-border-brand-strong);
+  }
+}
+
+.colorWrapper {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.color {
+  height: 40px;
+  width: 40px;
+  opacity: 0;
+}
+
+.fakePicker {
+  border-radius: 4px;
+  padding: 0;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}

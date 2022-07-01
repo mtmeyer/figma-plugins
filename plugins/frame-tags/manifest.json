@@ -1,0 +1,23 @@
+{
+  "name": "Frame Tags",
+  "id": "768262762486932527",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma"],
+  "menu": [
+    { "name": "Create Draft Tag", "command": "draft" },
+    { "name": "Create Approval Required Tag", "command": "approval-required" },
+    { "name": "Create Content Required Tag", "command": "content-required" },
+    { "name": "Create Ready for Review Tag", "command": "ready-for-review" },
+    { "name": "Create Complete Tag", "command": "complete" },
+    { "name": "Create Approved Tag", "command": "approved" },
+    { "name": "Create Ready for Dev Tag", "command": "ready-for-dev" },
+    { "name": "Create Work in Progress Tag", "command": "work-in-progress" },
+    { "name": "Create On Hold Tag", "command": "on-hold" },
+    { "name": "Create Revised Tag", "command": "revised" },
+    { "name": "Create In Progress Tag", "command": "in-progress" },
+    { "separator": true },
+    { "name": "Frame Tags", "command": "frame" }
+  ]
+}
